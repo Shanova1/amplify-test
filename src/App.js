@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { API } from 'aws-amplify';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
+const response = await API.get('nodeapi', '/hello');
 
 function App() {
-
-  const response = await API.get('nodeapi', '/hello');
   
   return (
     <div className="App">
