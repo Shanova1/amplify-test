@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/wolt-rest",
+            "lambdaFunction": "woltlambdafunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/wolt-rest"
+        }
+    ],
+    "resourceName": "wolt1request",
+    "apiName": "wolt1request",
+    "functionArns": [
+        {
+            "lambdaFunction": "woltlambdafunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplify3cb709e324e74-staging-165557-authRole",
+        "unAuthRoleName": "amplify-amplify3cb709e324e74-staging-165557-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "woltlambdafunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

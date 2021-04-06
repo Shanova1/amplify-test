@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "amplifytest741ed7de": {}
+      },
+      "function": {
+        "woltlambdafunction": {
+          "deploymentBucketName": "amplify-amplify3cb709e324e74-staging-165557-deployment",
+          "s3Key": "amplify-builds/woltlambdafunction-30386f7a50365a394144-build.zip"
+        }
       }
     }
   }
